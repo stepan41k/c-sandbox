@@ -11,7 +11,7 @@ int main() {
     char *str3 = malloc(10 * sizeof(char));
     strcpy(str3, "Gopher");
 
-    printf("%s: %d\n", str3, strlen(str3));
+    printf("%s: %ld\n", str3, strlen(str3));
 
     free(str3);
 
